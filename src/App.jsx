@@ -45,7 +45,7 @@ function App() {
 
   return (
     <div className="App">
-  <h1>Next 7 Days Calendar</h1>
+  <h1>This Week's Tennis Schedule</h1>
   <div className="calendar">
     {next7Days.map((date, index) => (
       <div key={index} className="calendar-day">
